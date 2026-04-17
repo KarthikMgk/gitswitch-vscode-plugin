@@ -31,7 +31,7 @@ The usual workaround — SSH host aliases in `~/.ssh/config` — works, but it's
 GitSwitch lives in the VS Code status bar. One click shows your GitHub profiles. One more click switches to it — setting both the correct SSH key **and** your git commit identity for that terminal session.
 
 ```
-# GitSwitch: github-karthikmg-tw → karthikmg-tw (249672917+karthikmg-tw@users.noreply.github.com)
+# GitSwitch: github-work → your-username (12345678+your-username@users.noreply.github.com)
 ```
 
 No config files touched. No global git settings changed. Everything is terminal-scoped and disappears when the session ends.
