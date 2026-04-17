@@ -1,5 +1,8 @@
 **
 !package.json
+!README.md
+!LICENSE
+!images/logo.svg
 !out/extension.js
 !out/shellUtils.js
 !out/sshConfigReader.js
