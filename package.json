@@ -1,0 +1,48 @@
+{
+  "name": "gitswitch",
+  "displayName": "GitSwitch",
+  "description": "Switch between GitHub SSH profiles from the VS Code status bar",
+  "version": "0.0.1",
+  "publisher": "karthikmg",
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "keywords": [
+    "git",
+    "ssh",
+    "github",
+    "profile",
+    "switch"
+  ],
+  "activationEvents": [
+    "onStartupFinished"
+  ],
+  "main": "./out/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "gitswitch.selectProfile",
+        "title": "GitSwitch: Select GitHub SSH Profile"
+      }
+    ]
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "test": "mocha",
+    "package": "vsce package --allow-missing-repository"
+  },
+  "devDependencies": {
+    "@types/mocha": "^10.0.10",
+    "@types/node": "^20.0.0",
+    "@types/vscode": "^1.85.0",
+    "@vscode/vsce": "^3.9.0",
+    "mocha": "^11.7.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.0"
+  }
+}

@@ -1,0 +1,6 @@
+**
+!package.json
+!out/extension.js
+!out/shellUtils.js
+!out/sshConfigReader.js
+!out/githubIdentity.js
