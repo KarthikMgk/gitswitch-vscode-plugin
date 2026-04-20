@@ -1,7 +1,7 @@
 <div align="center">
   <img src="images/logo.png" width="128" height="128" alt="GitSwitch logo" />
 
-  # GitSwitch
+  # Git SSH Switch
 
   **Switch between GitHub SSH profiles from the VS Code status bar.**
 
