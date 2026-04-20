@@ -2,7 +2,7 @@
   "name": "git-ssh-switch",
   "displayName": "Git SSH Switch",
   "description": "Switch between GitHub SSH profiles from the VS Code status bar",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "publisher": "karthikeyanmg",
   "engines": {
     "vscode": "^1.85.0"
