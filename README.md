@@ -1,11 +1,11 @@
 <div align="center">
-  <img src="images/logo.svg" width="128" height="128" alt="GitSwitch logo" />
+  <img src="images/logo.png" width="128" height="128" alt="GitSwitch logo" />
 
   # GitSwitch
 
   **Switch between GitHub SSH profiles from the VS Code status bar.**
 
-  [![VS Code](https://img.shields.io/badge/VS%20Code-1.85%2B-007ACC?style=flat-square&logo=visualstudiocode)](https://marketplace.visualstudio.com/items?itemName=karthikmg.gitswitch)
+  [![VS Code](https://img.shields.io/badge/VS%20Code-1.85%2B-007ACC?style=flat-square&logo=visualstudiocode)](https://marketplace.visualstudio.com/items?itemName=karthikeyanmg.gitswitch)
   [![License: MIT](https://img.shields.io/badge/License-MIT-green?style=flat-square)](LICENSE)
   [![GitHub](https://img.shields.io/badge/GitHub-KarthikMgk%2Fgitswitch--vscode--plugin-181717?style=flat-square&logo=github)](https://github.com/KarthikMgk/gitswitch-vscode-plugin)
 

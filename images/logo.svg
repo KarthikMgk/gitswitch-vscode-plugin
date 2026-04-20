@@ -1,24 +1,24 @@
 <svg width="256" height="256" viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg">
-  <!-- Background -->
-  <rect width="256" height="256" rx="48" fill="#1e1e1e"/>
+  <!-- Full-bleed background, no rounded corners (marketplace applies its own) -->
+  <rect width="256" height="256" fill="#1e1e1e"/>
 
   <!-- Key ring -->
-  <circle cx="90" cy="104" r="38" fill="none" stroke="#58a6ff" stroke-width="16"/>
+  <circle cx="90" cy="96" r="42" fill="none" stroke="#58a6ff" stroke-width="18"/>
   <!-- Key hole -->
-  <circle cx="90" cy="104" r="13" fill="#1e1e1e"/>
+  <circle cx="90" cy="96" r="15" fill="#1e1e1e"/>
 
   <!-- Key shaft -->
-  <rect x="118" y="95" width="72" height="18" rx="9" fill="#58a6ff"/>
+  <rect x="122" y="87" width="80" height="18" rx="9" fill="#58a6ff"/>
   <!-- Tooth 1 -->
-  <rect x="150" y="113" width="14" height="20" rx="4" fill="#58a6ff"/>
+  <rect x="155" y="105" width="15" height="22" rx="4" fill="#58a6ff"/>
   <!-- Tooth 2 -->
-  <rect x="174" y="113" width="14" height="15" rx="4" fill="#58a6ff"/>
+  <rect x="180" y="105" width="15" height="16" rx="4" fill="#58a6ff"/>
 
-  <!-- Switch arrow — top (blue, right-pointing) -->
-  <path d="M 48 166 Q 128 146 208 166" fill="none" stroke="#58a6ff" stroke-width="11" stroke-linecap="round"/>
-  <polyline points="194,152 208,166 194,180" fill="none" stroke="#58a6ff" stroke-width="11" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Switch arrow — right-pointing (blue) -->
+  <path d="M 36 168 Q 128 148 220 168" fill="none" stroke="#58a6ff" stroke-width="13" stroke-linecap="round"/>
+  <polyline points="204,153 220,168 204,183" fill="none" stroke="#58a6ff" stroke-width="13" stroke-linecap="round" stroke-linejoin="round"/>
 
-  <!-- Switch arrow — bottom (green, left-pointing) -->
-  <path d="M 208 188 Q 128 208 48 188" fill="none" stroke="#3fb950" stroke-width="11" stroke-linecap="round"/>
-  <polyline points="62,174 48,188 62,202" fill="none" stroke="#3fb950" stroke-width="11" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Switch arrow — left-pointing (green) -->
+  <path d="M 220 192 Q 128 212 36 192" fill="none" stroke="#3fb950" stroke-width="13" stroke-linecap="round"/>
+  <polyline points="52,177 36,192 52,207" fill="none" stroke="#3fb950" stroke-width="13" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>

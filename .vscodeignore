@@ -3,6 +3,7 @@
 !README.md
 !LICENSE
 !images/logo.svg
+!images/logo.png
 !out/extension.js
 !out/shellUtils.js
 !out/sshConfigReader.js
